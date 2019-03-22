@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/firstmagento/app/design/frontend/Steve/steve/web/js/my.js

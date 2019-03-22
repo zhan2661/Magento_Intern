@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/firstmagento/lib/web/mage/trim-input.js

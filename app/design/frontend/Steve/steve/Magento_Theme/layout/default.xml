@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
+                <argument name="logo_alt" xsi:type="string">Custom Design</argument>
+                <argument name="logo_img_width" xsi:type="number">250</argument>
+                <argument name="logo_img_height" xsi:type="number">45</argument>
+            </arguments>
+        </referenceBlock>
+        <referenceContainer name="content.bottom" remove="true"/>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="myView" template="Magento_Theme::myView.phtml"></block>
+        </referenceContainer>
+    </body>
+</page>

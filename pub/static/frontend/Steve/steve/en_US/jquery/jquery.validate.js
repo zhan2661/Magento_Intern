@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/firstmagento/lib/web/jquery/jquery.validate.js
